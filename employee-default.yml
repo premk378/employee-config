@@ -1,4 +1,6 @@
 date.format: "YYYY-MM-DD"
+server: 
+  port: 8081
 spring:
   application:
     name: employee-service
