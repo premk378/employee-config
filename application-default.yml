@@ -2,6 +2,8 @@ date.format: "YYYY-MM-DD"
 spring:
   application:
     name: employee-service
+  profiles:
+    active: test
   h2:
     console:
       enabled: true
